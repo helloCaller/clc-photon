@@ -15,7 +15,7 @@ particle.getEventStream({ deviceId: '28001c001647343337363432', name:'Motion-Det
                  var image;
                     for(i=0;i<=imageArray.length; i++){
                         if(i==count){
-                        imageArray[i] = image
+                        image = imageArray[i];
                         }
                     }
                 //adding images into the ghostImage div
