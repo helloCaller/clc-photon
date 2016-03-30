@@ -18,36 +18,39 @@
     <link href="css/clc.css" rel="stylesheet">
 
 </head>
-
+    
 <body class="full">
+    <img id="background" class= "img-responsive" src="css/room.jpg">
 <!-- Images get added to this div the more busy it gets-->
     <div id="ghostImage"></div>
     <!-- Navigation -->
+<!--nb. A lot of these classes seem superfluous, but they're for bootstrap, and they enable the site to be responsive-->
     <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
         <div class="container-fluid">
             <div class="row">
             <div class="col-sm-12">
+<!--link to the coleman lemieux website that looks like a button-->
                 <a href="http://colemanlemieux.com/" class="btn btn-info" role="button" title="Coleman Lemieux Website">Continue on to Coleman Lemieux and Company's main site</a>
             </div>
             </div>
         </div>
     </nav>
 
-    <!-- Page Content -->
+    <!-- On page content -->
     <div class="container-fluid">
-        <div class="row custom-text">
-            <div class="col-md-4 col-sm-12">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 custom-text">
                 <h1>Welcome,</h1>
-                <p>This is CLC's realtime, updating, landing page. The more activity happening currently at the Citadel, the more this image gets filled.</p>
+                <p>This is Coleman Lemieux and Company's realtime, updating, landing page. The more activity happening currently at the Citadel, the more this theatre gets filled.</p>
             </div>
         </div>
     </div>
    
-    
+<!--  ---JavaScript Libraries---  -->
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!--Particle-->
-   <script type="text/javascript" src="https://cdn.jsdelivr.net/particle-api-js/5.2.6/particle.min.js"></script>    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/particle-api-js/5.2.6/particle.min.js"></script>    
     <!--Custom JavaScript-->
     <script src="js/clc.js"></script>
     <!-- Bootstrap Core JavaScript -->
